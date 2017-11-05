@@ -1,0 +1,14 @@
+﻿#Pitanje 1 
+	program traje oko 5 sekundi (jer je 5 poziva metode koja traje oko 1 sekundu)
+#Pitanje 2 
+	na jednoj
+#Pitanje 3
+	program je trajao oko 1 sekundu
+#Pitanje 4
+	svaka metoda se odvijala na svojoj dretvi, dakle 5 dretvi
+#Pitanje 5
+	ako obje dretve "istovremeno" (ne treba istovremeno vec je dovoljno da jedna povuce podatak
+	prije nego sto ga je druga spremila) pristupe podatku npr. counter = 0 i obje ga povecaju za jedan
+	u counteru bi trebalo pisati 2 a zapravo pise 1(Dretva 1 je uzela counter = 0 i 
+	povecala ga te je sada u counteru 1 no i Dretva 2 je uzela counter = 0 i povecela ga za jedan
+	tako da nakon izvrsavanja umjesto da u counteru pise 2 pisat ce 1)
